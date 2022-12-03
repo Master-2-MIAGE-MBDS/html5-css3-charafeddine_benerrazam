@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  border: 1px solid #000;
+}
+.title {
+  display: flex;
+  align-items: center;
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+.welcome {
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  padding: 60px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.myForm {
+  padding: 60px 30px 60px 30px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: dodgerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  background-color: dodgerblue;
+  padding: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
